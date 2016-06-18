@@ -1,17 +1,17 @@
 body {
     background-color: lightblue;
 }
-@media (max-width: 675px) {
+@media (min-width: 675px) {
     body {
         background-color: yellow;
     }
 }
-@media (max-width: 999px) {
+@media (min-width: 999px) {
     body {
         background-color: green;
     }
 }
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
     body {
         background-color: orange;
     }
