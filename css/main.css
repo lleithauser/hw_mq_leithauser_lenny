@@ -1,0 +1,8 @@
+body {
+    background-color: yellow;
+}
+@media (max-width: 960px), (min-width: 715px) {
+        body {
+            background-color: green;
+        }
+}
